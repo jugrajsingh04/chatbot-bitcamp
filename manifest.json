@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "My Chrome Extension",
+    "version": "1.0",
+    "description": "Description of your extension",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "/bot2.jpeg",
+        "48": "/bot3.jpeg",
+        "128": "/bot128.jpeg"
+      }
+    }
+  }
+  
